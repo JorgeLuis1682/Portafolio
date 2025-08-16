@@ -1,5 +1,5 @@
 import React from 'react';
-import Navbar from './components/navbar';
+import Navbar from './components/Navbar';
 import About from './components/About';
 import Trabajo from './components/Trabajo';
 import Carrusel from './components/Carrusel';
