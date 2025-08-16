@@ -2,12 +2,12 @@ export default function Footer() {
   const socialLinks = [
     {
       name: 'Gmail',
-      href: 'mailto:tuemail@gmail.com',
+      href: 'mailto:jorgeluis.tortoleromarron@gmail.com',
       icon: 'https://cdn.simpleicons.org/gmail/EA4335',
     },
     {
       name: 'Instagram',
-      href: 'https://www.instagram.com/tuusuario',
+      href: 'https://www.instagram.com/jorgeluistm23?igsh=MWhqcGtlbWVsdjVlag==',
       icon: 'https://cdn.simpleicons.org/instagram/E4405F',
     },
     {
@@ -29,7 +29,7 @@ export default function Footer() {
           {/* Botón para descargar CV */}
           <div className="mt-8">
             <a
-              href="/tu-cv.pdf"
+              href="public\CV_Jorge_Tortolero.pdf"
               download
               className="inline-block rounded-md bg-indigo-600 px-6 py-3 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 transition-colors"
             >

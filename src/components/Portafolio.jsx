@@ -18,10 +18,10 @@ const projects = [
     link: 'https://cloudsaas.vercel.app/',
   },
   {
-    title: 'Blog Personal',
-    description: 'Portafolio para mostrar mis trabajos y que continuamente estare actualizando.',
-    image: 'https://via.placeholder.com/600x360?text=Blog',
-    link: '#',
+    title: 'Portafolio personal',
+    description: 'Pagina para mostrar mis trabajos y que continuamente estare actualizando.',
+    image: 'public/imagenes_paginas/portafolio.png',
+    link: 'https://portafoliojorgetortolero.vercel.app/',
   },
 ]
 
