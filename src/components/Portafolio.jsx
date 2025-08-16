@@ -14,7 +14,7 @@ const projects = [
   {
     title: 'Landing page CloudSaaS',
     description: 'Landing page hecha en ingles como trabajo para universitarios.',
-    image: '/imagenes_paginas/cloudsaas.png',
+    image: '/imagenes_paginas/Cloudsaas.png',
     link: 'https://cloudsaas.vercel.app/',
   },
   {
