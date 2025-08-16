@@ -29,7 +29,7 @@ export default function Footer() {
           {/* Botón para descargar CV */}
           <div className="mt-8">
             <a
-              href="public\CV_Jorge_Tortolero.pdf"
+              href="/CV_Jorge_Tortolero.pdf"
               download
               className="inline-block rounded-md bg-indigo-600 px-6 py-3 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 transition-colors"
             >
