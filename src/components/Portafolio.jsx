@@ -8,19 +8,19 @@ const projects = [
   {
     title: 'Landing Page tequeñopolis',
     description: 'Diseño moderno para un negocio local de tequeños con menú interactivo.',
-    image: 'public/imagenes_paginas/tequeñopolis.png',
+    image: '/imagenes_paginas/tequeñopolis.png',
     link: 'https://teque-opolis.vercel.app/',
   },
   {
     title: 'Landing page CloudSaaS',
     description: 'Landing page hecha en ingles como trabajo para universitarios.',
-    image: 'public/imagenes_paginas/cloudsaas.png',
+    image: '/imagenes_paginas/cloudsaas.png',
     link: 'https://cloudsaas.vercel.app/',
   },
   {
     title: 'Portafolio personal',
     description: 'Pagina para mostrar mis trabajos y que continuamente estare actualizando.',
-    image: 'public/imagenes_paginas/portafolio.png',
+    image: '/imagenes_paginas/portafolio.png',
     link: 'https://portafoliojorgetortolero.vercel.app/',
   },
 ]
