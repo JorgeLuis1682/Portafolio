@@ -3,18 +3,14 @@ import {
   ArrowUpRight,
   Download,
   Terminal,
-  ShieldCheck,
-  Cpu,
   Layers,
   Sparkles,
-  MapPin,
   CheckCircle2,
   Briefcase,
   CodeXml,
-  Database,
   Code2,
+  Database,
   Server,
-  Globe,
   GitBranch,
 } from 'lucide-react'
 
@@ -116,73 +112,6 @@ export default function Hero({ onOpenCV }) {
                 <span>Experiencia</span>
               </a>
             </div>
-          </div>
-
-          {/* Right Column: Clean Developer IDE Card displaying Full Image */}
-          <div className="lg:col-span-5 flex justify-center pt-6 lg:pt-0">
-            <div className="relative w-full max-w-[340px] sm:max-w-[380px] mx-auto">
-              {/* Soft Ambient Glow Aura Behind Card */}
-              <div className="absolute -inset-4 bg-gradient-to-tr from-indigo-600/30 via-purple-600/20 to-cyan-400/25 rounded-3xl blur-2xl animate-pulse-glow -z-10 pointer-events-none" />
-
-              {/* Main Photo Card Container with Gradient Border */}
-              <div className="p-[2px] rounded-2xl bg-gradient-to-tr from-indigo-500 via-purple-500/80 to-cyan-400 shadow-2xl animate-gradient-border">
-                <div className="rounded-[14px] bg-zinc-950 overflow-hidden flex flex-col group">
-                  {/* Top Code Window Header Bar */}
-                  <div className="h-9 bg-zinc-900/90 border-b border-zinc-800/80 px-4 flex items-center justify-between font-mono">
-                    <div className="flex items-center gap-1.5">
-                      <span className="w-2.5 h-2.5 rounded-full bg-red-500/80 inline-block" />
-                      <span className="w-2.5 h-2.5 rounded-full bg-yellow-500/80 inline-block" />
-                      <span className="w-2.5 h-2.5 rounded-full bg-emerald-500/80 inline-block" />
-                    </div>
-                    <span className="text-zinc-300 text-[11px] font-semibold tracking-wide flex items-center gap-1.5">
-                      <Terminal className="w-3.5 h-3.5 text-indigo-400" /> jorge_tortolero.ts
-                    </span>
-                    <span className="text-[10px] text-emerald-400 font-bold bg-emerald-500/10 px-2 py-0.5 rounded border border-emerald-500/20 flex items-center gap-1">
-                      <span className="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-pulse"></span>
-                      ONLINE
-                    </span>
-                  </div>
-
-                  {/* Avatar Container */}
-                  <div className="relative bg-zinc-900 overflow-hidden flex items-center justify-center" style={{minHeight: '220px'}}>
-                    <div className="w-32 h-32 rounded-full bg-gradient-to-br from-indigo-500 to-purple-600 flex items-center justify-center shadow-lg shadow-indigo-500/30 group-hover:scale-[1.05] transition-transform duration-500">
-                      <span className="text-white font-extrabold text-4xl tracking-tight select-none">JT</span>
-                    </div>
-                  </div>
-
-                  {/* Integrated Info Footer Below Image */}
-                  <div className="bg-zinc-950 p-4 border-t border-zinc-800/80 space-y-2.5">
-                    <div className="flex items-center justify-between">
-                      <div>
-                        <h3 className="text-white font-extrabold text-lg tracking-tight">
-                          Jorge L. Tortolero
-                        </h3>
-                        <p className="text-zinc-400 text-xs flex items-center gap-1.5 font-mono mt-0.5">
-                          <MapPin className="w-3.5 h-3.5 text-indigo-400" /> Caracas, Venezuela
-                        </p>
-                      </div>
-                      <span className="px-2.5 py-1 rounded-lg bg-indigo-500/20 text-indigo-300 border border-indigo-500/30 text-xs font-semibold">
-                        Semi-Senior
-                      </span>
-                    </div>
-
-                    {/* Integrated Micro-Badges Bar */}
-                    <div className="pt-2 border-t border-zinc-800/60 flex flex-wrap gap-2 text-[11px] font-mono text-zinc-300">
-                      <span className="inline-flex items-center gap-1 px-2.5 py-1 rounded-md bg-zinc-900 border border-indigo-500/30 text-indigo-300">
-                        <ShieldCheck className="w-3.5 h-3.5 text-indigo-400" /> Líder Fintech
-                      </span>
-                      <span className="inline-flex items-center gap-1 px-2.5 py-1 rounded-md bg-zinc-900 border border-cyan-500/30 text-cyan-300">
-                        <Cpu className="w-3.5 h-3.5 text-cyan-400" /> Samsung IA
-                      </span>
-                      <span className="inline-flex items-center gap-1 px-2.5 py-1 rounded-md bg-zinc-900 border border-emerald-500/30 text-emerald-300">
-                        <Globe className="w-3.5 h-3.5 text-emerald-400" /> 100% Remoto
-                      </span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
         </div>
 
         {/* Bottom Bento Metric Stats Row */}
