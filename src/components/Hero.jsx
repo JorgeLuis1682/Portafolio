@@ -143,13 +143,11 @@ export default function Hero({ onOpenCV }) {
                     </span>
                   </div>
 
-                  {/* 100% Full Photo Container (Uncropped, Uncovered) */}
-                  <div className="relative bg-zinc-900 overflow-hidden">
-                    <img
-                      src="/profile.jpg"
-                      alt="Jorge Luis Tortolero Marrón"
-                      className="w-full h-auto object-contain filter contrast-[1.02] group-hover:scale-[1.01] transition-transform duration-500"
-                    />
+                  {/* Avatar Container */}
+                  <div className="relative bg-zinc-900 overflow-hidden flex items-center justify-center" style={{minHeight: '220px'}}>
+                    <div className="w-32 h-32 rounded-full bg-gradient-to-br from-indigo-500 to-purple-600 flex items-center justify-center shadow-lg shadow-indigo-500/30 group-hover:scale-[1.05] transition-transform duration-500">
+                      <span className="text-white font-extrabold text-4xl tracking-tight select-none">JT</span>
+                    </div>
                   </div>
 
                   {/* Integrated Info Footer Below Image */}
