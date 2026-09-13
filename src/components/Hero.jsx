@@ -26,8 +26,6 @@ const CODE_LINES = [
   { text: '    return { success: false, data: null }', color: 'text-red-400' },
   { text: '  }', color: 'text-zinc-100' },
   { text: '}', color: 'text-indigo-300' },
-  { text: '', color: '' },
-  { text: '// Clean code. Always.', color: 'text-zinc-500' },
 ]
 
 function AnimatedTerminal() {
