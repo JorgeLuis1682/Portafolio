@@ -10,21 +10,24 @@ import {
 } from 'lucide-react'
 
 const CODE_LINES = [
-  { text: 'const jorge = {', color: 'text-zinc-100' },
-  { text: '  name: "Jorge Tortolero",', color: 'text-emerald-400' },
-  { text: '  role: "Full Stack Semi-Senior",', color: 'text-emerald-400' },
-  { text: '  location: "Caracas, Venezuela",', color: 'text-emerald-400' },
-  { text: '  remote: true,', color: 'text-cyan-400' },
-  { text: '  stack: [', color: 'text-zinc-100' },
-  { text: '    "React", "Next.js", "Angular",', color: 'text-amber-400' },
-  { text: '    "Node.js", "Python", "FastAPI",', color: 'text-amber-400' },
-  { text: '    "PostgreSQL", "TensorFlow",', color: 'text-amber-400' },
-  { text: '  ],', color: 'text-zinc-100' },
-  { text: '  experience: "~4 years",', color: 'text-purple-400' },
-  { text: '  openToWork: true,', color: 'text-cyan-400' },
-  { text: '}', color: 'text-zinc-100' },
+  { text: 'async function fetchUser(id: string) {', color: 'text-indigo-300' },
+  { text: '  try {', color: 'text-zinc-100' },
+  { text: '    const res = await fetch(`/api/users/${id}`)', color: 'text-emerald-400' },
   { text: '', color: '' },
-  { text: '// Listo para tu proximo proyecto 🚀', color: 'text-zinc-500' },
+  { text: '    if (!res.ok) {', color: 'text-zinc-100' },
+  { text: '      throw new Error("User not found")', color: 'text-red-400' },
+  { text: '    }', color: 'text-zinc-100' },
+  { text: '', color: '' },
+  { text: '    const data: User = await res.json()', color: 'text-cyan-400' },
+  { text: '    return { success: true, data }', color: 'text-emerald-400' },
+  { text: '', color: '' },
+  { text: '  } catch (err: unknown) {', color: 'text-zinc-100' },
+  { text: '    console.error(err)', color: 'text-amber-400' },
+  { text: '    return { success: false, data: null }', color: 'text-red-400' },
+  { text: '  }', color: 'text-zinc-100' },
+  { text: '}', color: 'text-indigo-300' },
+  { text: '', color: '' },
+  { text: '// Clean code. Always.', color: 'text-zinc-500' },
 ]
 
 function AnimatedTerminal() {
