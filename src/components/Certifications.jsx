@@ -4,10 +4,6 @@ import {
   Award,
   Languages,
   BookOpen,
-  Calendar,
-  CheckCircle,
-  Building,
-  Sparkles,
 } from 'lucide-react'
 
 const educations = [
@@ -146,7 +142,7 @@ export default function Certifications() {
               {certifications.map((cert, idx) => (
                 <div
                   key={idx}
-                  className="p-6 rounded-2xl bg-zinc-900/50 border border-zinc-800 hover:border-zinc-700 transition-all duration-300"
+                  className="p-6 rounded-2xl bg-zinc-900/50 border border-zinc-800 hover:border-zinc-700 transition-all duration-300 group"
                 >
                   <div className="flex items-start justify-between gap-2 mb-2">
                     <div>
@@ -171,6 +167,8 @@ export default function Certifications() {
                   <p className="text-xs sm:text-sm text-zinc-400 mt-2.5 leading-relaxed">
                     {cert.desc}
                   </p>
+
+
                 </div>
               ))}
             </div>
