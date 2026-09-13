@@ -91,7 +91,7 @@ function AnimatedTerminal() {
             </div>
             <span className="text-zinc-400 text-[11px] font-semibold tracking-wide flex items-center gap-1.5">
               <Terminal className="w-3.5 h-3.5 text-indigo-400" />
-              jorge_tortolero.ts
+              api.service.ts
             </span>
             <span className="text-[10px] text-emerald-400 font-bold bg-emerald-500/10 px-2 py-0.5 rounded border border-emerald-500/20 flex items-center gap-1">
               <span className="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-pulse" />
